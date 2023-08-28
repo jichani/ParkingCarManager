@@ -32,6 +32,7 @@ namespace ParkingCarManager
         {
 
         }
+        // 로그 작성 부분 2.
         private void WriteLog(string contents)
         {
             string log = $"[{DateTime.Now.ToString("yyyy/MM/dd hh:mm:ss.fff")}]";

@@ -9,7 +9,7 @@ namespace ParkingCarManager
 {
     public class DataManager
     {
-
+        // 로그 작성 부분 1.
         // ParkingCarManager.exe랑 같은 경로에 LogFolder라는 이름의 폴더가 없다면..
         public static void printLog (string contents)
         {
