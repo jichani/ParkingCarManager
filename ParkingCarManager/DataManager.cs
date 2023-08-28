@@ -16,7 +16,7 @@ namespace ParkingCarManager
             DirectoryInfo di = new DirectoryInfo ("LogFolder");
             if (di.Exists == false) 
             {
-                // 새로 만든다.
+                // 새로 만든다. mssql이 안되서 멈춤..
                 di.Create();
             }
             // @"LogFolder\ParkingHistory.txt"
